@@ -15,7 +15,6 @@ public class PrimeNumber
 
         for(int i = num1; i < num2; i++)
         {
-
             int ctr = 0;
             for(int j = 2; j < i; j++)
             {
@@ -25,20 +24,11 @@ public class PrimeNumber
                     break;
                 }
             }
-
             if(ctr==0 && i!=1)
             {
                 Console.WriteLine(i);
-
-            }
-
-          
-           
+            }   
         }
-
-
-
     }
-
 }
 
